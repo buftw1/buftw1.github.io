@@ -8,6 +8,18 @@
     background-size: cover;
 }
 
+/* #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  } */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -144,3 +156,14 @@ input::placeholder {
 #saveScoreBtn {
     border: none;
 }
+
+.wrapper {
+    width: 35rem;
+    display:block;
+    background: hsl(199deg 15% 15%);
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1;
+    height: 300px;
+    opacity: 70%;
+}  

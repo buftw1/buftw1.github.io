@@ -18,3 +18,14 @@ h4 {
     position: relative;
     bottom: 20px;
 }
+
+  .wrapper {
+    width: 40rem;
+    display:block;
+    background: hsl(199deg 15% 15%);
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1;
+    height: 500px;
+    opacity: 70%;
+}  
